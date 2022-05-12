@@ -59,9 +59,23 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <comp lib="5" loc="(320,330)" name="LED"/>
+    <wire from="(400,440)" to="(490,440)"/>
+    <wire from="(300,440)" to="(360,440)"/>
+    <wire from="(110,510)" to="(300,510)"/>
+    <wire from="(300,440)" to="(300,510)"/>
+    <wire from="(330,330)" to="(490,330)"/>
+    <wire from="(490,440)" to="(490,600)"/>
+    <wire from="(110,470)" to="(110,510)"/>
+    <wire from="(490,330)" to="(490,440)"/>
+    <wire from="(60,430)" to="(60,600)"/>
+    <wire from="(60,430)" to="(110,430)"/>
+    <wire from="(330,280)" to="(340,280)"/>
+    <wire from="(60,600)" to="(490,600)"/>
+    <wire from="(330,280)" to="(330,330)"/>
+    <comp lib="0" loc="(400,440)" name="Transistor"/>
     <comp lib="5" loc="(110,390)" name="LED"/>
     <comp lib="5" loc="(110,470)" name="LED"/>
+    <comp lib="5" loc="(340,280)" name="LED"/>
     <comp lib="5" loc="(110,430)" name="LED"/>
   </circuit>
 </project>
