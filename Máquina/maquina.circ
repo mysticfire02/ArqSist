@@ -59,9 +59,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(140,260)" to="(140,270)"/>
     <wire from="(320,170)" to="(370,170)"/>
     <wire from="(270,170)" to="(320,170)"/>
     <wire from="(370,170)" to="(420,170)"/>
+    <wire from="(120,260)" to="(120,270)"/>
     <wire from="(170,170)" to="(220,170)"/>
     <wire from="(220,170)" to="(270,170)"/>
     <wire from="(120,170)" to="(170,170)"/>
@@ -82,7 +84,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(440,110)" to="(440,190)"/>
     <wire from="(170,170)" to="(170,190)"/>
     <wire from="(220,170)" to="(220,190)"/>
+    <wire from="(80,260)" to="(120,260)"/>
+    <wire from="(140,260)" to="(180,260)"/>
+    <wire from="(80,220)" to="(80,260)"/>
+    <wire from="(180,220)" to="(180,260)"/>
     <wire from="(50,170)" to="(70,170)"/>
+    <wire from="(130,220)" to="(130,270)"/>
     <comp lib="0" loc="(290,110)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
@@ -94,6 +101,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="6" loc="(442,84)" name="Text">
       <a name="text" val="H"/>
     </comp>
+    <comp loc="(160,300)" name="Deco custom">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(280,220)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
@@ -103,6 +113,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(123,288)" name="Text">
+      <a name="text" val="Dec Ops"/>
     </comp>
     <comp lib="6" loc="(91,83)" name="Text">
       <a name="text" val="A"/>
@@ -174,7 +187,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="6" loc="(189,84)" name="Text">
       <a name="text" val="C"/>
     </comp>
-    <comp loc="(250,350)" name="Deco custom"/>
+    <comp lib="5" loc="(510,40)" name="7-Segment Display"/>
     <comp lib="1" loc="(430,220)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
